@@ -118,7 +118,7 @@ int main(int argc, char* argv[]){
 		}
 	}
 	else{
-		printf("ERROR: PLease include one, and only one argument containing the number of threads you wish to run\n");
+		printf("ERROR: Please include one, and only one argument containing the number of threads you wish to run\n");
 	}
 	return 0;
 }
