@@ -4,7 +4,7 @@
 #SBATCH --time=0-00:05:00
 #SBATCH --output=my_output.txt
 
-cp prob1.c $PFSDIR/.
+cp prob1.c $PFSDIR/prob1.c
 cd $PFSDIR
 gcc prob1.c -o prob1 -lrt -pthread -lm
 ./prob1 1
