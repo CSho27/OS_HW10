@@ -6,4 +6,4 @@
 
 cp prob1 $PFSDIR/.
 cd $PFSDIR
-./prob1
+./prob1 4
